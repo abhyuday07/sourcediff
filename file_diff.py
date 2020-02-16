@@ -62,7 +62,9 @@ def get_AST(filename):
 			node_dict[unique_id] = Node(unique_id, present, [], parent)
 			parent = unique_id
 		prev_indent = curr_indent
+	print(node_dict)
 	return node_dict
+
 
 # Changes
 # Removed line number and addresses
