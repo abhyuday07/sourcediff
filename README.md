@@ -12,4 +12,6 @@
 * `sudo tar xvf path_to_downloaded_file --directory /usr/local`
 * `sudo mv clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04 llvm-8.0`
 * Add `export PATH="$PATH:/usr/local/llvm-8.0/bin"` in `~/.bashrc`
-
+* `sudo apt-get install libtinfo-dev`
+* `sudo apt-get install libxml2-dev`
+* `sudo apt-get install zlib1g-dev`
